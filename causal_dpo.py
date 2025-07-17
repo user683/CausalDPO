@@ -2,7 +2,6 @@ import os
 import fire
 import torch
 import random
-from Prompt import Prompt
 from trl import DPOConfig
 from accelerate import Accelerator
 from datasets import load_dataset

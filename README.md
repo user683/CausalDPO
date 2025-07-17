@@ -7,10 +7,8 @@
 This method introduces a backdoor  adjustment strategy during the preference alignment phase to eliminate interfer-
 ence from environmental confounders, explicitly models the latent environmental
 distribution using a soft clustering approach, and enhances robust consistency
-across diverse environments through invariance constraints. Theoretical analy-
-sis demonstrates that CausalDPO can effectively capture users’ stable preference
-structures across multiple environments, thereby improving the OOD generaliza-
-tion performance of LLM-based recommendation models. We conduct extensive
+across diverse environments through invariance constraints. Theoretical analysis demonstrates that CausalDPO can effectively capture users’ stable preference
+structures across multiple environments, thereby improving the OOD generalization performance of LLM-based recommendation models. We conduct extensive
 experiments under four representative distribution shift settings to validate the
 effectiveness of CausalDPO, achieving an average performance improvement of
 24.10% across four evaluation metrics.

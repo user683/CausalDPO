@@ -3,7 +3,6 @@ import fire
 import json
 import torch
 from tqdm import tqdm
-from Prompt import Prompt
 from peft import PeftModel
 from accelerate import Accelerator
 from datasets import load_dataset

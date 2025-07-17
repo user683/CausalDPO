@@ -2,7 +2,6 @@ import re
 import os
 import fire
 import torch
-from Prompt import Prompt
 from accelerate import Accelerator
 import bitsandbytes as bnb
 from datasets import load_dataset
